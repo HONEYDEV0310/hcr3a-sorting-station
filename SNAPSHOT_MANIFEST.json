@@ -1,0 +1,378 @@
+{
+  "snapshot_date": "2026-11-05",
+  "source_repository": "https://github.com/Robot3FinalProject/sorting",
+  "reference_remote_head_observed": "9c8e62b0eb3e0810dcfaaf48f78c7ed06e4d1ef6",
+  "basis": "local working directory snapshot; reference remote head is not a guarantee of file equivalence",
+  "files": [
+    {
+      "path": ".github/workflows/tests.yml",
+      "sha256": "5108b7d0478d16a9d46022eaef4ea591d012be7b22ea4363175b4464b1e44e31",
+      "bytes": 571
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "f7e47ba676a49cdf0d8bf7c66fdb42b89575f4be340e3e3c56ddc8bfd65938b3",
+      "bytes": 373
+    },
+    {
+      "path": "NOTICE.md",
+      "sha256": "8670211fecc530625efbebcf9ecc250fa96375cd3e23de2fe1274b49e23b15f1",
+      "bytes": 1808
+    },
+    {
+      "path": "README.md",
+      "sha256": "cd491545548d9dac243de247cbcd00aca7f2642e07191b403c4e58a483486c5b",
+      "bytes": 6402
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "sha256": "6e046ffb2eaf00ff67c9917f872915c85ef89bbf10446c23cb02ad031a380925",
+      "bytes": 874
+    },
+    {
+      "path": "config/cyclonedds_lan.xml",
+      "sha256": "d70d844cdb732122952cf9a6f5fcadc81009526123931012ff9156b2d3066d27",
+      "bytes": 493
+    },
+    {
+      "path": "config/cyclonedds_local.xml",
+      "sha256": "666e3aeba7c755e3325408cbf753cb56a80a535fb2d5eba264316766dbc33909",
+      "bytes": 429
+    },
+    {
+      "path": "config/cyclonedds_zenoh.xml",
+      "sha256": "a4b7c5d132f3f677965b6f4d6e121951875aaf7dee262845276a5ae8c6055d24",
+      "bytes": 229
+    },
+    {
+      "path": "config/fastdds_udp_only.xml",
+      "sha256": "f629d3c335636c7a4cdde29b5396c901655fe4d28ca6a9f00ba1f0a4e7086964",
+      "bytes": 720
+    },
+    {
+      "path": "config/sorting_station.json",
+      "sha256": "267b00f05e31d99066c537dd85254934c00a316b7d7891b0cc2ddca1c52c8d6b",
+      "bytes": 252
+    },
+    {
+      "path": "docs/DECISIONS.md",
+      "sha256": "1cf7a0660f2bb02b9f4c875239bc356680f14840ca5d38998cd03cecb73092ce",
+      "bytes": 7166
+    },
+    {
+      "path": "docs/HCR3A_DESKTOP_HANDOFF.md",
+      "sha256": "62dfd5c833e5770684862ab4eb6ea7d1b6c691cb00acc8c6c57753ec88fc190c",
+      "bytes": 12512
+    },
+    {
+      "path": "docs/HCR3A_MAIN_PROGRAM_STEP_BY_STEP_KR.pdf",
+      "sha256": "7ce768c88962e7e51b4cbdeb076c5303c208ead669ade2fd923a677524ba8785",
+      "bytes": 91642
+    },
+    {
+      "path": "docs/HCR3A_RODI_WORKBOOK_KR.pdf",
+      "sha256": "071c3adecd7c3ad2d85ed8e352017a135fc257918c8b44d7731b8e63e3ac78d5",
+      "bytes": 701733
+    },
+    {
+      "path": "docs/HCR_LAPTOP_START.md",
+      "sha256": "0137da23f7273bd410e56e4f0cfaff5d022cf138adf00c67ceeefc759093c0dd",
+      "bytes": 4083
+    },
+    {
+      "path": "docs/HCR_WORKSPACE.md",
+      "sha256": "b8e78ed909bc9aa79c6302b5a2f6a64375fdd2ec683b6efd717acd27a08f0086",
+      "bytes": 1070
+    },
+    {
+      "path": "docs/IMPORT_MANIFEST.json",
+      "sha256": "a29151270f3b814151a49c41f29a8dc68b27dc93ebdcee669679a35bb67cc02a",
+      "bytes": 1572
+    },
+    {
+      "path": "docs/INTERFACES.md",
+      "sha256": "61d6b92eff45f3e7f77e7fcb5a4853b5b5cbaf0b7326cf2bab7c69b9ec24ca6a",
+      "bytes": 5526
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "2a2ff701a1f178850aba1a4829f2870f5db29a3451a1ece1689643a338409901",
+      "bytes": 2342
+    },
+    {
+      "path": "docs/SNAPSHOT_VALIDATION.md",
+      "sha256": "6debf18ff372a9d32189943fce6c16b27cbad6a6d35a07233a6d26b798631859",
+      "bytes": 2037
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "sha256": "44cd53d625b07815af5bbe751e9c47e6ce1e1831239076de6ecfe2cb9967b812",
+      "bytes": 3689
+    },
+    {
+      "path": "docs/hcr3a/00_OVERVIEW.md",
+      "sha256": "e9c742ddcb3d595ff47e006d37733645dc18d261007d4fa185b31d54cfe0c13f",
+      "bytes": 4106
+    },
+    {
+      "path": "docs/hcr3a/01_SETUP.md",
+      "sha256": "36a98d429b9dcc70d0894fef893cba7c9ad99537c931aafe19409c2c6f381079",
+      "bytes": 2972
+    },
+    {
+      "path": "docs/hcr3a/02_VISION.md",
+      "sha256": "4395e5c38ef1c5e3d4fe43966e292d37774bf12d84fe8a533795489c32503a3b",
+      "bytes": 3186
+    },
+    {
+      "path": "docs/hcr3a/03_RODI_GRIPPER.md",
+      "sha256": "b2942abffe3db23d9ef4bb787b52d297a333622044929f0d3dca785fc3fa2426",
+      "bytes": 5239
+    },
+    {
+      "path": "docs/hcr3a/04_OPERATIONS.md",
+      "sha256": "f5fc4729ad0e165a50ea431980d050f8e88b65579a9f249e98d859d75a559fc4",
+      "bytes": 3854
+    },
+    {
+      "path": "docs/hcr3a/05_TROUBLESHOOTING.md",
+      "sha256": "605a30a2e1f21404f4a636652b7075d6621c1030091fa0a99085f7b14741c841",
+      "bytes": 3445
+    },
+    {
+      "path": "docs/hcr3a/06_VALIDATION_HISTORY.md",
+      "sha256": "e2fdc29037aef9d5cfb3cad33249a386d3977a5e9597c651228251d875077186",
+      "bytes": 3861
+    },
+    {
+      "path": "docs/hcr3a/07_PROTOCOL_REFERENCE.md",
+      "sha256": "7baa86e877fd24bb5bd8bd1f658e4ab885ea15d3452a025ab1f4d98eb06dd517",
+      "bytes": 4331
+    },
+    {
+      "path": "docs/hcr3a/08_CURRENT_OPERATIONS.md",
+      "sha256": "c61abaaeb39932a72af24bca537102e447cd8019c25917ee6b0e44104f0a1e95",
+      "bytes": 19370
+    },
+    {
+      "path": "docs/hcr3a/09_ZENOH_START.md",
+      "sha256": "a40c2f01b7ab83075b9608ae16281193c2c161dcc88cea552cfa2c37bf916638",
+      "bytes": 6659
+    },
+    {
+      "path": "docs/hcr3a/10_ZENOH_TEAM_TEST.md",
+      "sha256": "9010f1ff2a81986d9e1def0348492288a7da39b6753f36f98c6b6485eb2ef6c0",
+      "bytes": 4315
+    },
+    {
+      "path": "docs/hcr3a/CONFLUENCE_PAGES.json",
+      "sha256": "8b2d1c6435601f590842d239dec4c46cba38a0ecf1cafc772e6d2c233537a1c8",
+      "bytes": 4182
+    },
+    {
+      "path": "docs/hcr3a/assets/sorting_station_completed.jpg",
+      "sha256": "bcca215edc8edd084796d12fa534ccfc7ad0f2347d99ed5bdfbd51e713d2980f",
+      "bytes": 362656
+    },
+    {
+      "path": "scripts/check_sorting.sh",
+      "sha256": "095914ec36d4f974d1fc5cbc85762d056cf669627af8fc43a439036526d28c5b",
+      "bytes": 723
+    },
+    {
+      "path": "scripts/start_sorting_station.py",
+      "sha256": "9b70feddf1302459a322b7a64ee4920c803bc0ad9cfceb034d76bdf08e302728",
+      "bytes": 13112
+    },
+    {
+      "path": "src/farm_interfaces/CMakeLists.txt",
+      "sha256": "003c73ed37df40b0503d21b79262db9735729c3a161569e34b2e61c22450c168",
+      "bytes": 304
+    },
+    {
+      "path": "src/farm_interfaces/README.md",
+      "sha256": "fe1674a401f8dd40d5a96ab4d2aacff1086232675f8ba08ddc71790a0473c59d",
+      "bytes": 1283
+    },
+    {
+      "path": "src/farm_interfaces/action/SortBatch.action",
+      "sha256": "a183b377ec96ce67b5b80b89cdba3f39ba175992e4d744ca611013ffa2bce342",
+      "bytes": 341
+    },
+    {
+      "path": "src/farm_interfaces/msg/SorterStatus.msg",
+      "sha256": "f201df19c9a5567f91aff56388ea79b4435c8a097427bf190438f02c2ebe2b83",
+      "bytes": 193
+    },
+    {
+      "path": "src/farm_interfaces/package.xml",
+      "sha256": "71afcfa6b75b9a317c29451c5a98fde3b6f16ec387579aa6e53ecd0f92b9dda0",
+      "bytes": 548
+    },
+    {
+      "path": "src/sorting_station/HCR3A_CURRENT_HANDOFF.md",
+      "sha256": "f2485462b0de0132bf0c34bc275e62345875a0a69b81f68bce66c841be13efb5",
+      "bytes": 11295
+    },
+    {
+      "path": "src/sorting_station/HCR3A_SORTING_HANDOFF.md",
+      "sha256": "90ddacb7fe7281c8f81f665802ed5a8d1035961211aee95c24966cbc329bb2e5",
+      "bytes": 15164
+    },
+    {
+      "path": "src/sorting_station/hcr/README.md",
+      "sha256": "fd9d54f2114a7fcb83a84a64e7e01d4b47b811af5841fc1b02775dcbc372530c",
+      "bytes": 9136
+    },
+    {
+      "path": "src/sorting_station/hcr/build_sorter.sh",
+      "sha256": "5eb6491f79efae1a3a17341941faec5657aa6570a7c0d10077e349c3af08b223",
+      "bytes": 500
+    },
+    {
+      "path": "src/sorting_station/hcr/gripper_tool_io_test.txt",
+      "sha256": "956b95d3baa74e12d2b2e53831d7f5c505a21cf29c3d75559779f2dccab1766b",
+      "bytes": 3318
+    },
+    {
+      "path": "src/sorting_station/hcr/modbus_test_server.py",
+      "sha256": "b3a67a4d49dd42ad336a5a2fc0eeab290c55cd07e16e2dc42cc0b53cdfc00130",
+      "bytes": 3530
+    },
+    {
+      "path": "src/sorting_station/hcr/realsense_camera.py",
+      "sha256": "70248314e02da92da1b04c370f7224d77b875c630d896bdc3e0c254800a26a39",
+      "bytes": 2251
+    },
+    {
+      "path": "src/sorting_station/hcr/ros_local_env.sh",
+      "sha256": "6d52111e04b9f097a7c61e029dfcea68f132f479a351d7a8da7b225b7044cee4",
+      "bytes": 554
+    },
+    {
+      "path": "src/sorting_station/hcr/run_d435_preview.sh",
+      "sha256": "fff63b771cb52c63294af4130b0352b83ed0bae4e739af5dca6ec54c3fd5cf80",
+      "bytes": 418
+    },
+    {
+      "path": "src/sorting_station/hcr/run_dummy_control.sh",
+      "sha256": "e4f88ce95de021297f9bf6183a6c4d53e37ad6f8a5a29c739962e8edc6a98ab5",
+      "bytes": 521
+    },
+    {
+      "path": "src/sorting_station/hcr/run_sorter.sh",
+      "sha256": "80f982915dd84aed684e5518ccde108651e7173e31596188e01908fccb2a9b13",
+      "bytes": 512
+    },
+    {
+      "path": "src/sorting_station/hcr/run_webcam_preview.sh",
+      "sha256": "bc08aa5d0a0d5e23d55fcb8e8d51339ca030a8bce4155a03b3ae5e75536c6786",
+      "bytes": 1012
+    },
+    {
+      "path": "src/sorting_station/hcr/test_zone_preview.py",
+      "sha256": "6c710bd2b926487a03050b5c4abd0d7f74230a73b1562354fd75bc63180750ab",
+      "bytes": 6127
+    },
+    {
+      "path": "src/sorting_station/hcr/zone_modbus_bridge.py",
+      "sha256": "8058d83407e5d3252f3a9924923fd2bef0a5c8464c3b5000f5f337777ecdf43b",
+      "bytes": 3258
+    },
+    {
+      "path": "src/sorting_station/hcr/zone_preview.py",
+      "sha256": "019f41f17acbb2adfd8f89b3eefec8c24120843d79f1535ce6cc1f67bf7e1dc4",
+      "bytes": 11970
+    },
+    {
+      "path": "src/sorting_station/hcr_sorting/README.md",
+      "sha256": "31b9a8ed0088717b780a38e60b4f92d07b0081e615614d0fdfc84c2c97269149",
+      "bytes": 11980
+    },
+    {
+      "path": "src/sorting_station/hcr_sorting/RODI_PROGRAMMING_GUIDE_KR.md",
+      "sha256": "9cf5996e965707f015d4667dbb99579124478a9027f5c2ec0b29b22753090f28",
+      "bytes": 15621
+    },
+    {
+      "path": "src/sorting_station/hcr_sorting/hcr_sorting/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "src/sorting_station/hcr_sorting/hcr_sorting/core.py",
+      "sha256": "d3444de583224f95db1cdb41c77e8bdcb1e1ed5fec0b8e2602832afcc09c91d7",
+      "bytes": 10276
+    },
+    {
+      "path": "src/sorting_station/hcr_sorting/hcr_sorting/dummy_control.py",
+      "sha256": "1093a369025c6773365e01841352c529c9eb57b73fda9ffa0a04edf7f852cdeb",
+      "bytes": 9424
+    },
+    {
+      "path": "src/sorting_station/hcr_sorting/hcr_sorting/mock_hcr.py",
+      "sha256": "d136cd1d968e2b2e221d08a2be18623c73532f528fed382bb59df1abbedf31a1",
+      "bytes": 2107
+    },
+    {
+      "path": "src/sorting_station/hcr_sorting/hcr_sorting/modbus.py",
+      "sha256": "ea49ad7a84f3133e94125716a3fe5d768588e6c8eb2fbab1eeab8a00543fccd2",
+      "bytes": 3841
+    },
+    {
+      "path": "src/sorting_station/hcr_sorting/hcr_sorting/node.py",
+      "sha256": "642d59d226af8f21ae89cdd35e5073861038c43607b33d3bc6ba32ebeda65502",
+      "bytes": 8638
+    },
+    {
+      "path": "src/sorting_station/hcr_sorting/package.xml",
+      "sha256": "815e942acc9b984e695c11439be63e93ac9e9e38bd0ebde16ed23cc8775b4dbd",
+      "bytes": 497
+    },
+    {
+      "path": "src/sorting_station/hcr_sorting/resource/hcr_sorting",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "src/sorting_station/hcr_sorting/setup.cfg",
+      "sha256": "2c1307b550125b03a8d025635956a4a0718fbc46e190c7af99709b01bef9a201",
+      "bytes": 91
+    },
+    {
+      "path": "src/sorting_station/hcr_sorting/setup.py",
+      "sha256": "b22f3e5ed604cde63496e35fcc0c7572426ba53372965eff7d76878eff2052e3",
+      "bytes": 548
+    },
+    {
+      "path": "src/sorting_station/hcr_sorting/tests/ros_integration.py",
+      "sha256": "eb31f36f466e1d697a1c2e5a1d221e1d23332667cc1bdac24b7ba3c58bc331b3",
+      "bytes": 4991
+    },
+    {
+      "path": "src/sorting_station/hcr_sorting/tests/test_core.py",
+      "sha256": "1ce65b4934da14f6544d1ae58164f47f31ab6a6986c585569cd847269262a996",
+      "bytes": 5463
+    },
+    {
+      "path": "src/sorting_station/hcr_sorting/tests/test_dummy_control.py",
+      "sha256": "9c13215c1bae1cce242a42a840bf2a63564ad3ecc3b81fb322c7f2208dcda8ce",
+      "bytes": 3639
+    },
+    {
+      "path": "src/sorting_station/hcr_sorting/tests/test_modbus.py",
+      "sha256": "98a4417567db10449afb274c03aa0ece27c113c0d1c4e902773ec893f2ec5a55",
+      "bytes": 2068
+    },
+    {
+      "path": "start_sorting.sh",
+      "sha256": "f4b134f262dd6e6a967954f934b32823feac9c7cbf341a954a6f650bc0eec285",
+      "bytes": 180
+    },
+    {
+      "path": "tests/test_sorting_launcher.py",
+      "sha256": "d9728b86ac81c5d6e1b4ea9e38ff91aa94b85895579ec456dd43bd8c950f249b",
+      "bytes": 8827
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+name: Sorting station checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  hardware-free:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install camera test dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-numpy python3-opencv
+      - name: Run hardware-free regression checks
+        run: bash scripts/check_sorting.sh
+      - name: Check launcher commands
+        run: |
+          bash start_sorting.sh --dry-run
+          bash start_sorting.sh --dummy --dry-run

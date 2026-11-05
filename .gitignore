@@ -1,0 +1,36 @@
+# Runtime and local setup
+outputs/
+build/
+install/
+log/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Credentials and private tooling
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+*.pem
+*.key
+
+# Field data and overrides
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.pcap
+*.pcapng
+config/*.local.json
+config/*.local.env
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store

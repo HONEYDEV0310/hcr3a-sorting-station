@@ -1,0 +1,10 @@
+{
+  "ros_domain_id": 77,
+  "dds_config": "config/cyclonedds_zenoh.xml",
+  "zenoh_endpoint": "tcp/192.168.0.20:7447",
+  "camera": null,
+  "receive_enabled": false,
+  "modbus_host": "192.168.3.2",
+  "modbus_port": 502,
+  "modbus_peer": "192.168.3.100"
+}
